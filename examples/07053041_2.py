@@ -11,8 +11,8 @@ GPIO.setwarnings(False)
 GPIO.setup(4, GPIO.IN)
 GPIO_PIN = 4
 
-deviceId = "DPs1WOl0"
-deviceKey = "z3ass8w6K0jwGp0o" 
+deviceId = "DIr00Kmw"
+deviceKey = "zB80IH8PthNxVFRA" 
 def post_to_mcs(payload): 
         headers = {"Content-type": "application/json", "deviceKey": deviceKey} 
         not_connected = 1 
@@ -46,3 +46,4 @@ try:
             sys.exit(1)
 except KeyboardInterrupt:
     print('關閉程式')
+
